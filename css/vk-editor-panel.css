@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.vkEditPanel		{ position:relative; border:1px solid #ccc;background-color:#e5e5e5; border-bottom:1px solid #fff; box-shadow:0px 1px 3px rgba(0,0,0,0.3);　}
+.vkEditPanel ul		{ margin:0px; }
+.vkEditPanel .vkEditPanelHead	{ position:relative; display:block; overflow:hidden; padding:0px; width:auto; background-color:#666;}
+.vkEditPanel .vkEditPanelHead h3	{color:#fff;}
+.vkEditPanel .vkEditPanelBody	{ padding:5px;}
+.vkEditPanel .vkEditPanelBody label	{ margin-right:10px;}
+.vkEditPanel .vkEditPanelClose	{ float:right;position:absolute; right:3px;top:3px;}
+
+.vkEditPanel .btn	{display:inline-block; border:1px solid #ccc; padding:2px 5px; font-size:10px; border-radius:3px; background-color:#fff;}
+.vkEditPanel .btn:hover	{ cursor:pointer; }
+
+.vkEditPanel a.button-primary	{ color:#fff !important; padding:2px 10px; cursor:pointer; }
+
+.vkEditPanel .colselect li	{ display:inline-block; margin-right:1px; list-style:none; }
+.vkEditPanel .inputTextArea	{ border:1px solid #ccc;padding:5px;width:100%;min-height:50px; display:block; overflow:hidden; }
