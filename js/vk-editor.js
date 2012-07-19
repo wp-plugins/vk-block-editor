@@ -15,16 +15,16 @@ $("#wp-content-media-buttons").before("<input id=\"editorActivate\" type=\"butto
 // load vk-editor-body css ( this file load timing is load page after 0.3 second. )
 setTimeout(function(){
 	$('iframe').contents().find('head').append(
-	'<link href="/wp-content/plugins/vk-editor/css/vk-editor-body.css?=2" rel="stylesheet" type="text/css">\
-	<link href="/wp-content/plugins/vk-editor/css/vk-editor-admin-body.css?=2" rel="stylesheet" type="text/css">\
+	'<link href="/wp-content/plugins/vk-block-editor/css/vk-editor-body.css?=2" rel="stylesheet" type="text/css">\
+	<link href="/wp-content/plugins/vk-block-editor/css/vk-editor-admin-body.css?=2" rel="stylesheet" type="text/css">\
 	');
 	$('iframe').contents().find('head').append("");
 },500);
 
 /*
-<script type='text/javascript' src='/wp-content/plugins/vk-editor/js/jquery-1.3.2.js'></script>\
-<script type='text/javascript' src='/wp-content/plugins/vk-editor/js/jquery-ui-1.7.2.custom.min.js'></script>\
-<script type='text/javascript' src='/wp-content/plugins/vk-editor/js/vk-editor-body.js'></script>\
+<script type='text/javascript' src='/wp-content/plugins/vk-block-editor/js/jquery-1.3.2.js'></script>\
+<script type='text/javascript' src='/wp-content/plugins/vk-block-editor/js/jquery-ui-1.7.2.custom.min.js'></script>\
+<script type='text/javascript' src='/wp-content/plugins/vk-block-editor/js/vk-editor-body.js'></script>\
 */
 // set insertMode
 var insertMode = "insertNonActive";

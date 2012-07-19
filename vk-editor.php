@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name:VK Block Editor
-Plugin URI:
+Plugin Name: VK Block Editor
+Plugin URI: http://vektor-inc.co.jp
 Description: This pulugin is possible to Block layout on Tinymce editor.
-Version: 0.1.0.3
+Version: 0.1.0.4
 Author: Vektor,Inc,
 Author URI: http://vektor-inc.co.jp
 License: GPL2
@@ -38,17 +38,17 @@ function vk_admin_loadfile(){
 	*/
 
 	// load js for admin
-	wp_enqueue_script( 'admin_load_js', plugins_url() . '/vk-editor/js/vk-editor.js', array( 'jquery' ), '2012-06-30' );
+	wp_enqueue_script( 'admin_load_js', plugins_url() . '/vk-block-editor/js/vk-editor.js', array( 'jquery' ), '2012-06-30' );
 	// load css for admin
-	wp_enqueue_style( 'admin_load_admin_css', plugins_url() . '/vk-editor/css/vk-editor-admin.css' , false, '2012-06-24');
-	//wp_enqueue_style( 'admin_load_admin_css', plugins_url() . '/vk-editor/css/vk-editor-body.css' , false, '2012-06-24');
-	//wp_enqueue_style( 'admin_load_admin_css', plugins_url() . '/vk-editor/css/vk-editor-admin-body.css' , false, '2012-06-24');
-	wp_enqueue_style( 'admin_load_panel_css', plugins_url() . '/vk-editor/css/vk-editor-panel.css' , false, '2012-06-24');
+	wp_enqueue_style( 'admin_load_admin_css', plugins_url() . '/vk-block-editor/css/vk-editor-admin.css' , false, '2012-06-24');
+	//wp_enqueue_style( 'admin_load_admin_css', plugins_url() . '/vk-block-editor/css/vk-editor-body.css' , false, '2012-06-24');
+	//wp_enqueue_style( 'admin_load_admin_css', plugins_url() . '/vk-block-editor/css/vk-editor-admin-body.css' , false, '2012-06-24');
+	wp_enqueue_style( 'admin_load_panel_css', plugins_url() . '/vk-block-editor/css/vk-editor-panel.css' , false, '2012-06-24');
 }
 add_action('admin_head-post.php', 'vk_admin_loadfile', 11);
 add_action('admin_head-post-new.php', 'vk_admin_loadfile', 11);
 
 function setVkBlockEditorCss(){
-	wp_enqueue_style( 'setVkBlockEditorCss', plugins_url() . '/vk-editor/css/vk-editor-body.css' , false, '2012-06-24');
+	wp_enqueue_style( 'setVkBlockEditorCss', plugins_url() . '/vk-block-editor/css/vk-editor-body.css' , false, '2012-06-24');
 }
 add_action('wp_head', 'setVkBlockEditorCss');
