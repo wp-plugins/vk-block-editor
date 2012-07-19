@@ -16,7 +16,7 @@ This pulugin is possible to Block layout on Tinymce editor.
 If you use this plugin that you can layout to float image, collayout, add section margin...etc 
 
 = Translators =
-* Japanese(ja) - [Hidekazu IShikawa](http://twitter.com/kurudrive)
+* Japanese(ja) - [Hidekazu Ishikawa](http://twitter.com/kurudrive)
 
 * @[kurudrive](http://twitter.com/kurudrive) on twitter
 * [Hidekazu Ishikawa](https://www.facebook.com/hidekazu.ishikawa) on facebook
